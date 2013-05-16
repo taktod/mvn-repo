@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.ttProject</groupId>
+  <artifactId>myLib.xuggle</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20130516132220</lastUpdated>
+  </versioning>
+</metadata>

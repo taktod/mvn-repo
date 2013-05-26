@@ -3,6 +3,11 @@
   <artifactId>myLib</artifactId>
   <packaging>pom</packaging>
   <version>0.0.2-SNAPSHOT</version>
+  <parent>
+    <groupId>com.ttProject</groupId>
+    <artifactId>myLib.m2eHelper</artifactId>
+    <version>0.0.1</version>
+  </parent>
   <modules>
     <module>myLib.mp4</module>
     <module>myLib.channels</module>
@@ -30,9 +35,4 @@
         <url>file://${project.basedir}/../mvn-repo</url>
     </repository>
   </distributionManagement>
-  <parent>
-    <groupId>com.ttProject</groupId>
-    <artifactId>myLib.m2eHelper</artifactId>
-    <version>0.0.1</version>
-  </parent>
 </project>

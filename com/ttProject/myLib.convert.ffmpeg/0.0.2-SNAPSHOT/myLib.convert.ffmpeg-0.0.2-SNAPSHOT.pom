@@ -5,22 +5,28 @@
     <artifactId>myLib</artifactId>
     <version>0.0.2-SNAPSHOT</version>
   </parent>
-  <artifactId>myLib.packet.flv</artifactId>
+  <repositories>
+    <repository>
+      <id>jboss-public-repository</id>
+      <url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
+    </repository>
+  </repositories>
+  <artifactId>myLib.convert.ffmpeg</artifactId>
   <dependencies>
     <dependency>
       <groupId>com.ttProject</groupId>
-      <artifactId>myLib.packet</artifactId>
+      <artifactId>myLib.convert</artifactId>
       <version>0.0.2-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.netty</groupId>
+      <artifactId>netty</artifactId>
+      <version>3.2.9.Final</version>
     </dependency>
     <dependency>
       <groupId>com.ttProject</groupId>
-      <artifactId>myLib.util</artifactId>
+      <artifactId>myLib.channels</artifactId>
       <version>0.0.2-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-    	<groupId>com.ttProject</groupId>
-    	<artifactId>myLib.media.flv</artifactId>
-    	<version>0.0.2-SNAPSHOT</version>
     </dependency>
   </dependencies>
 </project>

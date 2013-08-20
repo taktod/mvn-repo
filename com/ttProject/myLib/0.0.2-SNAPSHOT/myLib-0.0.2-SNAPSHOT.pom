@@ -28,6 +28,18 @@
     <module>myLib.convert.xuggle</module>
     <module>myLib.jmx</module>
     <module>myLib.mkv</module>
+    <module>myLib.mp3</module>
+    <module>myLib.log4j</module>
+    <module>myLib.media</module>
+    <module>myLib.media.mp3</module>
+    <module>myLib.media.flv</module>
+    <module>myLib.media.mp4</module>
+    <module>myLib.media.mkv</module>
+    <module>myLib.media.mpegts</module>
+    <module>myLib.media.aac</module>
+    <module>myLib.media.h264</module>
+    <module>myLib.media.extra</module>
+    <module>myLib.swing</module>
   </modules>
   <scm>
   	<url>scm:git:git@github.com:taktod/myLib.git</url>
@@ -41,4 +53,7 @@
         <url>file://${project.basedir}/../mvn-repo</url>
     </repository>
   </distributionManagement>
+  <name>myLib</name>
+  <description>taktodが個人的に利用しているjavaのライブラリ集
+いろいろなmavenモジュールにしてあるので、プログラムをつくるときに、つまみ食いをすればいろいろなプログラムがつくれます。</description>
 </project>

@@ -1,4 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <repositories>
+    <repository>
+      <id>myLib-repo</id>
+      <url>http://taktod.github.io/mvn-repo/</url>
+    </repository>
+  </repositories>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>myLib</artifactId>
   <packaging>pom</packaging>
@@ -9,16 +15,14 @@
     <version>0.0.1</version>
   </parent>
   <modules>
-    <module>myLib.mp4</module>
+    <module>myLib.setup</module>
     <module>myLib.channels</module>
     <module>myLib.util</module>
-    <module>myLib.flv</module>
     <module>myLib.packet</module>
     <module>myLib.packet.flv</module>
     <module>myLib.packet.mpegts</module>
     <module>myLib.packet.mp3</module>
     <module>myLib.xuggle.in.flv</module>
-    <module>myLib.xuggle</module>
     <module>myLib.xuggle.out.mpegts</module>
     <module>myLib.segment</module>
     <module>myLib.productHelper</module>
@@ -28,7 +32,6 @@
     <module>myLib.convert.xuggle</module>
     <module>myLib.jmx</module>
     <module>myLib.mkv</module>
-    <module>myLib.mp3</module>
     <module>myLib.log4j</module>
     <module>myLib.media</module>
     <module>myLib.media.mp3</module>
@@ -39,7 +42,11 @@
     <module>myLib.media.aac</module>
     <module>myLib.media.h264</module>
     <module>myLib.media.extra</module>
+    <module>myLib.media.raw</module>
     <module>myLib.swing</module>
+    <module>myLib.xuggle.raw</module>
+    <module>myLib.xuggle</module>
+    <module>myLib.xuggle.flv</module>
   </modules>
   <scm>
   	<url>scm:git:git@github.com:taktod/myLib.git</url>

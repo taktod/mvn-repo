@@ -1,4 +1,6 @@
 #NOTE: This is an internal implementation file, its format can be changed without prior notice.
-#Mon May 20 06:38:03 JST 2013
-http\://xuggle.googlecode.com/svn/trunk/repo/share/java/.error=
-http\://xuggle.googlecode.com/svn/trunk/repo/share/java/.lastUpdated=1368999483553
+#Sat Oct 12 08:40:28 JST 2013
+default-http\://taktod.github.io/mvn-repo/.lastUpdated=1381534828365
+https\://github.com/taktod/mvn-repo/.lastUpdated=1381534827533
+http\://taktod.github.io/mvn-repo/.error=Could not transfer artifact com.ttProject\:myLib\:pom\:0.0.1-SNAPSHOT from/to myLib-repo (http\://taktod.github.io/mvn-repo/)\: /Users/todatakahiko/.m2/repository/com/ttProject/myLib/0.0.1-SNAPSHOT/myLib-0.0.1-SNAPSHOT.pom.ahc66369bd1714947b8 (No such file or directory)
+https\://github.com/taktod/mvn-repo/.error=

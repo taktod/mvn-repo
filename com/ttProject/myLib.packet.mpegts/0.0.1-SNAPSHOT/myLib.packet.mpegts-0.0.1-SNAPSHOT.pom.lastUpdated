@@ -1,0 +1,6 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Sat Oct 12 08:40:24 JST 2013
+default-http\://taktod.github.io/mvn-repo/.lastUpdated=1381534824785
+https\://github.com/taktod/mvn-repo/.lastUpdated=1381534824350
+http\://taktod.github.io/mvn-repo/.error=Could not transfer artifact com.ttProject\:myLib.packet.mpegts\:pom\:0.0.1-SNAPSHOT from/to myLib-repo (http\://taktod.github.io/mvn-repo/)\: /Users/todatakahiko/.m2/repository/com/ttProject/myLib.packet.mpegts/0.0.1-SNAPSHOT/myLib.packet.mpegts-0.0.1-SNAPSHOT.pom.ahc171863e860c24fde (No such file or directory)
+https\://github.com/taktod/mvn-repo/.error=

@@ -4,9 +4,8 @@
   <artifactId>myLib.convert</artifactId>
   <versioning>
     <versions>
-      <version>0.0.1-SNAPSHOT</version>
       <version>0.0.2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20131006064248</lastUpdated>
+    <lastUpdated>20131118103038</lastUpdated>
   </versioning>
 </metadata>

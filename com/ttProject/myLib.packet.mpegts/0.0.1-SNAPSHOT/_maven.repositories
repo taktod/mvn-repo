@@ -1,4 +1,4 @@
 #NOTE: This is an internal implementation file, its format can be changed without prior notice.
-#Mon May 20 18:21:30 JST 2013
-myLib.packet.mpegts-0.0.1-SNAPSHOT.jar>=
-myLib.packet.mpegts-0.0.1-SNAPSHOT.pom>=
+#Sat Oct 12 08:40:55 JST 2013
+myLib.packet.mpegts-0.0.1-SNAPSHOT.jar>myLib-repo=
+myLib.packet.mpegts-0.0.1-SNAPSHOT.pom>myLib-repo=
